@@ -1,0 +1,13 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Mar 23 11:21:19 2026
+
+@author: User amruta jadhav
+"""
+
+salary = int(input("Enter salary: "))
+
+if salary >= 25000:
+    print("Loan Approved")
+else:
+    print("Loan Rejected")
