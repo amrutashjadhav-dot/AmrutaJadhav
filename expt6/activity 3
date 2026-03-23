@@ -1,0 +1,22 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Mar 23 10:56:03 2026
+
+@author: User amruta jadhav
+"""
+
+# Open source file in read mode
+source = open("source.txt", "r")
+
+# Open destination file in write mode
+destination = open("backup.txt", "w")
+
+# Copy data
+for line in source:
+    destination.write(line)
+
+# Close files
+source.close()
+destination.close()
+
+print("Data copied successfully!")
