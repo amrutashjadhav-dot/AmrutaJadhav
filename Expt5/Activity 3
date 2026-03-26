@@ -1,0 +1,20 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Mar 26 2026
+@author: Amruta Jadhav
+"""
+# Initialize inventory dictionary
+inventory = {
+    "apple": 10,
+    "banana": 5
+}
+
+# Display original inventory
+print("Original inventory:", inventory)
+
+# Add new stock or update existing
+inventory["orange"] = 8
+inventory["apple"] += 5
+
+# Display updated inventory
+print("Updated inventory:", inventory)
