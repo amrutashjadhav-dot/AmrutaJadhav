@@ -1,0 +1,18 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Thursday march 26 12:52:26 2026
+@author: User Amruta Jadhav
+"""
+# Input product prices
+n = int(input("Enter number of products: "))
+prices = []
+
+for i in range(n):
+    price = float(input(f"Enter price of product {i+1}: "))
+    prices.append(price)
+
+# Calculate total bill
+total = sum(prices)
+
+print("Prices:", prices)
+print("Total bill:", total)
