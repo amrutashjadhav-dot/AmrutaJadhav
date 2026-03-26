@@ -1,0 +1,9 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Mar 26 2026
+@author: Amruta Jadhav
+"""
+for num in range(1, 11):
+    print(f"\nMultiplication Table of {num}:")
+    for i in range(1, 11):
+        print(f"{num} × {i} = {num * i}")
