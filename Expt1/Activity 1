@@ -1,0 +1,15 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Mar 26 2026
+@author: Amruta Jadhav
+"""
+# Input personal details
+name = input("Enter your name: ")
+address = input("Enter your address: ")
+contact_number = input("Enter your contact number: ")
+
+# Display the details
+print("\nYour Details:")
+print("Name:", name)
+print("Address:", address)
+print("Contact Number:", contact_number)
