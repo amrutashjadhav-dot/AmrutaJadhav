@@ -1,0 +1,14 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Mar 26 2026
+@author: Amruta Jadhav
+"""
+# Input roll numbers for two classes
+class1 = set(input("Enter roll numbers for Class 1 (space-separated): ").split())
+class2 = set(input("Enter roll numbers for Class 2 (space-separated): ").split())
+
+# Find students present in both classes
+common_students = class1.intersection(class2)
+
+# Display results
+print("Students in both classes:", common_students)
