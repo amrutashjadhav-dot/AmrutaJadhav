@@ -1,0 +1,21 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Mar 26 2026
+@author: Amruta Jadhav
+"""
+# Initialize library dictionary
+library = {
+    "Python Programming": 500,
+    "Data Structures": 700
+}
+
+# Display original prices
+print("Original library:", library)
+
+# Update price of a book
+book_name = "Python Programming"
+new_price = 550
+library[book_name] = new_price
+
+# Display updated library
+print("Updated library:", library)
