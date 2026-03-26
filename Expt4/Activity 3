@@ -1,0 +1,10 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Thursday march 26 12:52:26 2026
+@author: User Amruta Jadhav
+"""
+feedback = input("Enter customer feedback: ")
+
+reversed_feedback = feedback[::-1]
+
+print("Reversed feedback:", reversed_feedback)
