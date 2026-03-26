@@ -1,0 +1,14 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Mar 26 2026
+@author: Amruta Jadhav
+"""
+# Input number of items and copies
+num_items = int(input("Enter number of items: "))
+num_copies = int(input("Enter number of copies per item: "))
+
+# Print receipts
+for i in range(1, num_items + 1):
+    print(f"\nItem {i} Receipts:")
+    for j in range(num_copies):
+        print(f"Copy {j+1}: Item No. {i}")
