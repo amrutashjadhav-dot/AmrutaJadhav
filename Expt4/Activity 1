@@ -1,0 +1,20 @@
+# -*- coding: utf-8 -*-
+"""
+Created on thurs march 26 12:52:26 2026
+@author: User Amruta Jadhav
+"""
+# Input marks
+n = int(input("Enter number of students: "))
+marks = []
+
+for i in range(n):
+    m = int(input(f"Enter marks of student {i+1}: "))
+    marks.append(m)
+
+# Calculate average and topper
+average = sum(marks) / n if n > 0 else 0
+topper = max(marks) if n > 0 else 0
+
+print("Marks:", marks)
+print("Average marks:", average)
+print("Topper marks:", topper)
