@@ -1,0 +1,17 @@
+# -*- coding: divide billing among people
+"""
+Created on Wed Apr 1 2026
+@author: Amruta Jadhav
+"""
+
+try:
+    total = float(input("Enter total bill: "))
+    people = int(input("Enter number of people: "))
+    result = total / people
+    print("Each person pays:", result)
+
+except ZeroDivisionError:
+    print("Error: Cannot divide among zero people")
+
+except ValueError:
+    print("Error: Invalid input")
