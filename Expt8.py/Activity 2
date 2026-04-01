@@ -1,0 +1,14 @@
+# -*- coding: Invalid Age Input
+"""
+Created on Wed Apr 1 2026
+@author: Amruta Jadhav
+"""
+
+try:
+    age = int(input("Enter your age: "))
+    if age <= 0:
+        raise ValueError("Age must be positive")
+    print("Age is valid")
+
+except ValueError as e:
+    print("Error:", e)
