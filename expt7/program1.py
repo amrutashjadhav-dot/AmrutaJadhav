@@ -1,0 +1,23 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Apr 20 10:24:52 2026
+
+@author: Amruta jadhav
+"""
+class Employee:
+  def init (self, name, emp_id, basic_salary):
+   self.name = name
+   self.emp_id = emp_id
+   self.basic_salary = basic_salary
+def calculate_gross_salary(self):
+# Let's assume some standard allowances
+ hra = 0.2 * self.basic_salary # House Rent Allowance 20%
+ da = 0.1 * self.basic_salary # Dearness Allowance 10%
+ gross_salary = self.basic_salary + hra + da
+ return gross_salary
+def display_details(self):
+ print(f"Employee Name: {self.name}")
+ print(f"Employee ID: {self.emp_id}")
+ print(f"Basic Salary: {self.basic_salary}")
+ print(f"Gross Salary: {self.calculate_gross_salary()}")
+
